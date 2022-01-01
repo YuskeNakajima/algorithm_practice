@@ -1,12 +1,12 @@
-﻿using System;
+﻿using Application.Execute;
 
 namespace Run
 {
-    class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
-            Console.WriteLine("Hello World!");
+            new BubbleSort().Execute();
         }
     }
 }
